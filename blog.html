@@ -2,296 +2,343 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>망원 셔츠룸 추천 블로그 | 진짜 셔츠룸 정보 까발림</title>
-    <meta name="description" content="망원 셔츠룸 추천, 실사용자 리뷰 기반으로 가격, 분위기, 서비스까지 전격 비교. 망원동 셔츠룸 고르는 법, 여기서 다 알려줌. 010-6279-0862.">
-    <meta name="keywords" content="망원 셔츠룸, 망원 셔츠룸 추천, 망원 셔츠방, 망원동 셔츠룸, 셔츠룸 블로그, 셔츠룸 후기, 망원 셔츠룸 가격, 셔츠룸 정보">
-    <link rel="canonical" href="https://t3b05-mw-shirts-rc-1.vercel.app/">
-    <meta name="robots" content="index, follow">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-raw-concrete">
-    <!-- OG -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="망원 셔츠룸 추천 블로그 | 진짜 셔츠룸 정보 까발림">
-    <meta property="og:description" content="망원 셔츠룸 추천, 실사용자 리뷰 기반 가격·분위기·서비스 비교. 망원동 셔츠룸 고르는 법, 여기서 다 알려줌.">
-    <meta property="og:url" content="https://t3b05-mw-shirts-rc-1.vercel.app/">
-    <meta property="og:site_name" content="망원 셔츠룸 추천">
-    <meta property="og:locale" content="ko_KR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-ledger-cool">
+    <meta name="description" content="망원 셔츠룸 추천 — 처음 방문자를 위한 조건별 선택 안내. 인원·목적·시간대에 따라 달라지는 셔츠룸 표현을 정리하고, 참석자 전체 기준으로 판단하는 실무 가이드를 제공합니다.">
+    <meta name="keywords" content="망원 셔츠룸, 망원 셔츠룸 추천, 셔츠룸 예약, 망원 유흥, 셔츠룸 가이드, 망원 술집">
+    <link rel="canonical" href="https://mangwon-shirt-choice.link-hub.org/blog.html">
+    <meta property="og:title" content="망원 셔츠룸 추천 — 처음 방문자를 위한 조건별 선택 안내">
+    <meta property="og:description" content="자주 나오지만 범위가 흐린 표현, 지역에 따라 다르게 쓰이는 말, 문의 전에 맞춰두면 좋은 최소 어휘를 정리합니다.">
+    <title>망원 셔츠룸 추천 — 처음 방문자를 위한 조건별 선택 안내</title>
     <style>
-        /* RESET + BASE */
-        *, *::before, *::after {
+        :root {
+            --bg-primary: #f8f9fa;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --border-subtle: #e0e0e0;
+            --accent-cool: #2c3e50;
+            --accent-warm: #c0392b;
+            --card-bg: #ffffff;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+            --max-width: 1200px;
+            --header-height: 64px;
+        }
+
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        html {
-            font-size: 16px;
-            scroll-behavior: smooth;
-        }
+
         body {
-            font-family: 'Courier New', monospace;
-            background: #1a1a1a;
-            color: #e0e0e0;
-            line-height: 1.6;
-            overflow-x: hidden;
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            letter-spacing: -0.01em;
         }
-        a {
-            color: #ff4d4d;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        ul {
-            list-style: none;
-        }
-        /* BRUTALIST CORE */
-        img, svg, canvas {
-            max-width: 100%;
-            display: block;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: -0.02em;
-            color: #f0f0f0;
-        }
-        h1 {
-            font-size: 3rem;
-            line-height: 1;
-            border-bottom: 6px solid #ff4d4d;
-            padding-bottom: 0.5rem;
-            margin-bottom: 2rem;
-        }
-        h2 {
-            font-size: 2.2rem;
-            border-left: 8px solid #ff4d4d;
-            padding-left: 1rem;
-            margin: 3rem 0 1.5rem;
-        }
-        h3 {
-            font-size: 1.5rem;
-            border-bottom: 2px dashed #ff4d4d;
-            padding-bottom: 0.25rem;
-            margin: 2rem 0 1rem;
-        }
-        .container {
-            max-width: 1200px;
+
+        .v-wrap-hn80 {
+            max-width: var(--max-width);
             margin: 0 auto;
-            padding: 0 1.5rem;
+            padding: 0 24px;
         }
-        section {
-            padding: 4rem 0;
-        }
-        .btn {
-            display: inline-block;
-            background: #ff4d4d;
-            color: #1a1a1a;
-            font-weight: 900;
-            text-transform: uppercase;
-            padding: 0.75rem 2rem;
-            border: 4px solid #000;
-            box-shadow: 8px 8px 0 #000;
-            transition: 0.1s ease;
-        }
-        .btn:hover {
-            transform: translate(2px, 2px);
-            box-shadow: 4px 4px 0 #000;
-            text-decoration: none;
-        }
-        .phone-link {
-            font-size: 1.8rem;
-            font-weight: 900;
-            color: #ff4d4d;
-            border: 3px solid #ff4d4d;
-            padding: 0.5rem 1.5rem;
-            display: inline-block;
-            background: #1a1a1a;
-            transition: 0.1s ease;
-        }
-        .phone-link:hover {
-            background: #ff4d4d;
-            color: #000;
-            text-decoration: none;
-        }
-        /* NAV */
-        nav {
-            background: #111;
-            padding: 1rem 0;
-            border-bottom: 4px solid #ff4d4d;
+
+        .v-side-qtgt {
             position: sticky;
             top: 0;
+            background: rgba(248, 249, 250, 0.92);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 1px solid var(--border-subtle);
+            height: var(--header-height);
+            display: flex;
+            align-items: center;
             z-index: 100;
         }
-        .nav-container {
+
+        .v-side-qtgt-inner {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            max-width: 1200px;
+            width: 100%;
+            max-width: var(--max-width);
             margin: 0 auto;
-            padding: 0 1.5rem;
+            padding: 0 24px;
         }
-        .nav-logo {
-            font-size: 1.5rem;
-            font-weight: 900;
-            color: #ff4d4d;
-            text-transform: uppercase;
-        }
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-        }
-        .nav-links a {
-            color: #e0e0e0;
-            font-weight: 700;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            letter-spacing: 0.1em;
-        }
-        .nav-links a:hover {
-            color: #ff4d4d;
-        }
-        .hamburger {
+
+        .k-btn-4lpl {
             display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
             flex-direction: column;
             gap: 5px;
-            cursor: pointer;
-            padding: 0.25rem;
         }
-        .hamburger span {
-            width: 28px;
-            height: 4px;
-            background: #ff4d4d;
+
+        .k-btn-4lpl span {
             display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--text-primary);
+            transition: all 0.3s ease;
         }
-        /* RESPONSIVE 768 */
-        @media (max-width: 768px) {
-            h1 { font-size: 2.2rem; }
-            h2 { font-size: 1.6rem; }
-            .nav-links {
-                display: none;
-                position: fixed;
-                top: 70px;
-                right: 0;
-                background: #111;
-                width: 100%;
-                flex-direction: column;
-                padding: 2rem;
-                gap: 1.5rem;
-                border-bottom: 4px solid #ff4d4d;
-            }
-            .nav-links.active {
-                display: flex;
-            }
-            .hamburger {
-                display: flex;
-            }
-            .phone-link {
-                font-size: 1.4rem;
-            }
+
+        .r-head-sgfb ul {
+            list-style: none;
+            display: flex;
+            gap: 32px;
         }
-        /* BLOG POST */
-        .blog-meta {
-            color: #777;
+
+        .r-head-sgfb li {
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            transition: color 0.2s;
+            cursor: pointer;
+        }
+
+        .r-head-sgfb a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .r-head-sgfb a:hover {
+            color: var(--accent-cool);
+        }
+
+        .n-grid-q2fs {
+            display: grid;
+            grid-template-columns: 1fr 320px;
+            gap: 48px;
+            margin-top: 40px;
+        }
+
+        .q-list {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .q-list article {
+            background: var(--card-bg);
+            border-radius: var(--radius-md);
+            padding: 32px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-subtle);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .q-list article:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .q-list h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-cool);
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        .q-list h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 20px 0 12px;
+        }
+
+        .q-list p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .q-list ul {
+            list-style: disc;
+            padding-left: 20px;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .q-list li {
+            margin-bottom: 8px;
+            line-height: 1.7;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .sidebar .card {
+            background: var(--card-bg);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-subtle);
+        }
+
+        .sidebar .card h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent-cool);
+            margin-bottom: 12px;
+        }
+
+        .sidebar .card p {
+            color: var(--text-secondary);
             font-size: 0.9rem;
-            margin-bottom: 2rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
+            line-height: 1.6;
         }
-        .blog-body p {
-            margin-bottom: 1.5rem;
-            font-size: 1.05rem;
-        }
-        .blog-body blockquote {
-            border-left: 6px solid #ff4d4d;
-            padding: 0.5rem 1.5rem;
-            margin: 2rem 0;
-            background: #222;
-            font-style: italic;
-        }
-        .blog-body ul {
-            margin: 1.5rem 0;
-            padding-left: 2rem;
-        }
-        .blog-body ul li {
-            list-style: square;
-            margin-bottom: 0.75rem;
-            color: #ccc;
-        }
-        .blog-body .highlight-box {
-            background: #222;
-            border: 3px solid #ff4d4d;
-            padding: 1.5rem;
-            margin: 2rem 0;
-        }
-        /* FAQ */
-        .faq-item {
-            margin-bottom: 1.5rem;
-            border-left: 4px solid #ff4d4d;
-            padding-left: 1rem;
-        }
-        .faq-item h4 {
-            font-weight: 900;
-            color: #f0f0f0;
-            margin-bottom: 0.5rem;
-        }
-        .faq-item p {
-            color: #aaa;
-        }
-        /* FOOTER */
+
         footer {
-            background: #111;
-            padding: 2rem 0;
-            border-top: 4px solid #ff4d4d;
+            margin-top: 64px;
+            padding: 32px 0;
+            border-top: 1px solid var(--border-subtle);
             text-align: center;
-            color: #666;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            .n-grid-q2fs {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .k-btn-4lpl {
+                display: flex;
+            }
+
+            .r-head-sgfb ul {
+                position: fixed;
+                top: var(--header-height);
+                left: 0;
+                width: 100%;
+                background: var(--card-bg);
+                flex-direction: column;
+                padding: 24px;
+                gap: 20px;
+                box-shadow: var(--shadow-md);
+                transform: translateY(-100%);
+                opacity: 0;
+                pointer-events: none;
+                transition: all 0.3s ease;
+            }
+
+            .r-head-sgfb ul.active {
+                transform: translateY(0);
+                opacity: 1;
+                pointer-events: auto;
+            }
+
+            .q-list article {
+                padding: 24px;
+            }
+
+            .sidebar {
+                order: -1;
+            }
         }
     </style>
+  <meta property="og:url" content="https://mangwon-shirt-choice.link-hub.org/blog.html">
 </head>
 <body>
-
-<nav>
-    <div class="nav-container">
-        <a href="#" class="nav-logo">셔츠룸X</a>
-        <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('active')">
-            <span></span>
-            <span></span>
-            <span></span>
+    <header class="v-side-qtgt">
+        <div class="v-side-qtgt-inner">
+            <span style="font-weight: 700; font-size: 1.2rem; color: var(--accent-cool);">망원 셔츠룸 가이드</span>
+            <button class="k-btn-4lpl" id="menuToggle" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="r-head-sgfb" id="mainNav">
+                <ul>
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#">셔츠룸 추천</a></li>
+                    <li><a href="#">예약 가이드</a></li>
+                    <li><a href="#">블로그</a></li>
+                    <li><a href="#">문의</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="nav-links">
-            <a href="/">홈</a>
-            <a href="/about">소개</a>
-            <a href="/blog">블로그</a>
-            <a href="/contact">문의</a>
-            <a href="tel:010-6279-0862" class="phone-link">010-6279-0862</a>
+    </header>
+
+    <main class="v-wrap-hn80">
+        <div class="n-grid-q2fs">
+            <section class="q-list">
+                <article>
+                    <h2>망원 셔츠룸 추천 — 조건별 선택 기준 완벽 정리</h2>
+                    <p>망원동 일대에서 셔츠룸을 처음 방문하려는 경우, 단순히 ‘어디가 좋다’는 후기만으로 판단하기 어려운 요소가 많다. 인원 구성, 방문 목적, 시간대, 예산 범위에 따라 같은 업소라도 완전히 다른 평가가 나오기 때문이다. 이 글에서는 망원 셔츠룸 추천을 조건별로 분류하고, 방문 전 반드시 확인해야 할 실무 기준을 항목화하여 제시한다.</p>
+                    <p>셔츠룸이라는 업종 특성상, 매장마다 운영 방식과 내부 분위기, 직원 구성에 차이가 존재한다. 망원 지역은 특히 주거지와 상권이 혼재된 특성상, 방문객의 연령대와 방문 시점에 따라 적합한 선택지가 극명하게 갈린다. 따라서 추천을 받기 전, 자신이 속한 그룹의 조건을 먼저 명확히 정의하는 것이 중요하다.</p>
+
+                    <h3>1. 인원 수에 따른 추천 분기</h3>
+                    <p>참석 인원이 3인 이하일 경우, 상대적으로 소규모 룸을 보유한 업소가 적합하다. 망원 일부 셔츠룸은 4인 이상 단체 예약에 특화된 구조를 갖추고 있어, 소수 인원이 방문할 경우 공간 활용도가 떨어지거나 과도한 최소 주문 기준이 적용될 수 있다. 반대로 6인 이상 단체라면, 룸 크기와 좌석 배치, 그리고 동시 진행 가능한 서비스 인원 수를 사전 협의해야 한다.</p>
+                    <p>단체 방문 시에는 특히 예약 시점에 인원 변동 가능성을 고려해야 한다. 망원 셔츠룸 대부분은 당일 인원 변경에 제한적인 정책을 운영하므로, 확정 인원을 기준으로 1~2명 여유를 두고 예약하는 것이 실무상 유리하다. 예약 확인 단계에서 최소 보증 인원과 최대 수용 인원을 동시에 문의할 것을 권장한다.</p>
+
+                    <h3>2. 방문 목적에 따른 선택 기준</h3>
+                    <p>비즈니스 접대 목적이라면, 다음과 같은 조건을 우선적으로 검토해야 한다. 첫째, 룸 내 독립성과 소음 차단 수준, 둘째, 주류 및 안주 구성의 프리미엄 여부, 셋째, 전담 매니저 배정 가능성이다. 망원 일부 셔츠룸은 접대 특화 패키지를 별도 운영하며, 이 경우 사전 상담을 통해 맞춤형 주류 구성과 시간 할당을 조율할 수 있다.</p>
+                    <p>반면, 친목 모임이나 가벼운 회식 목적이라면, 가격 대비 부가 서비스 구성이 합리적인 곳을 선별해야 한다. 이 경우 테이블 차지 비용, 주류 셀프 반입 가능 여부, 시간 연장 조건 등을 비교 항목으로 삼는다. 목적이 불분명한 상태에서 단순히 "분위기 좋은 곳"이라는 추상적 기준만으로 선택하면, 현장에서의 기대 불일치가 발생할 확률이 높다.</p>
+
+                    <h3>3. 시간대별로 달라지는 환경 변수</h3>
+                    <p>망원 셔츠룸의 운영 피크 시간은 평일 기준 19시에서 22시 사이에 집중된다. 이 시간대에는 대부분의 업체가 최소 이용 시간 2시간 이상을 설정하며, 룸 회전율이 높아 서비스 응답 속도가 상대적으로 느려질 수 있다. 반면, 22시 이후 심야 시간대는 운용 인력이 축소되는 대신, 장시간 이용 시 할인율을 적용하는 경우가 존재한다.</p>
+                    <p>주중과 주말 선택도 중요한 변수다. 주말에는 최소 발주 금액이 상향 조정되거나, 예약금 선결제를 요구하는 업소가 많아진다. 처음 방문하는 경우, 주중 이른 시간대를 선택하여 업소의 기본 운영 패턴을 파악한 후, 이후 주말 방문 여부를 결정하는 접근 방식을 권장한다. 이는 리스크를 최소화하면서도 실질적 경험 데이터를 축적할 수 있는 방법이다.</p>
+
+                    <h3>4. 확인해야 할 부가 요소들</h3>
+                    <p>망원 셔츠룸 추천을 문의할 때 간과하기 쉬운 항목으로는 주차 지원 여부, 와인 또는 위스키 별도 반입 정책, 그리고 룸 내 개별 음향 제어 가능 여부가 있다. 특히 차량을 이용하는 경우, 건물 자체 주차장의 유무가 아니라 인근 공영주차장과의 연계 할인 지원 여부를 확인해야 실질적 편의성을 확보할 수 있다.</p>
+                    <p>또한, 다수의 망원 셔츠룸이 소셜미디어나 포털 검색을 통해 유입되는 예약 문의에 대해 별도의 상담 프로세스를 운영하고 있다. 이 과정에서 방문 목적과 인원, 희망 시간대를 미리 전달하면, 해당 업소 담당자가 최적에 가까운 룸 배정과 서비스 구성을 역제안하는 경우가 많다. 이 역방향 제안을 수용할지 여부가 최종 만족도를 결정하는 중요한 분기점이 된다.</p>
+
+                    <h3>5. 정보 비대칭을 줄이기 위한 사전 질문 리스트</h3>
+                    <p>초기 문의 단계에서 아래 항목을 질문하면, 망원 셔츠룸 선택에서 발생하는 정보 비대칭을 상당히 줄일 수 있다.</p>
+                    <ul>
+                        <li>오늘 예약 가능한 룸의 크기와 최대·최소 인원 기준은 어떻게 되나요?</li>
+                        <li>시간대별 최소 이용 시간과 추가 시간당 비용 구조는 어떻게 구성되나요?</li>
+                        <li>주류와 안주는 세트 구성인가요, 개별 선택인가요?</li>
+                        <li>룸 내부에 별도 공조 장치가 있나요?</li>
+                        <li>예약 변경이나 취소는 몇 시까지 가능한가요?</li>
+                    </ul>
+                    <p>이 질문들은 단순히 가격 비교를 넘어, 선택한 업소의 운영 체계와 서비스 투명성을 평가하는 기준이 된다. 답변이 모호하거나 지연되는 경우, 해당 업소는 추천 리스트에서 제외하는 것이 합리적이다. 정보를 명확히 제공하지 못하는 업체는 현장에서도 동일한 문제를 반복할 확률이 높기 때문이다.</p>
+
+                    <p>망원 셔츠룸 추천의 핵심은 결국 '자신이 속한 조건을 정확히 인지하고, 그 조건에 부합하는 업소를 필터링하는 것'으로 요약된다. 이 글에서 제시한 인원, 목적, 시간대, 부가 요소 검토의 프레임워크가 처음 방문자에게 실질적 가이드가 되기를 바란다.</p>
+                </article>
+            </section>
+
+            <aside class="sidebar">
+                <div class="card">
+                    <h4>빠른 확인 체크리스트</h4>
+                    <p>1. 인원 수 확정<br>2. 방문 목적 명확화<br>3. 시간대 선택<br>4. 주차 필요 여부<br>5. 예산 상한선 설정</p>
+                </div>
+                <div class="card">
+                    <h4>자주 묻는 질문</h4>
+                    <p><strong>Q: 당일 예약이 가능한가요?</strong><br>A: 대부분 가능하지만, 피크 시간대에는 사전 문의가 필요합니다.</p>
+                    <p><strong>Q: 결제 방법은 어떻게 되나요?</strong><br>A: 카드 결제가 기본이며, 현금 결제 시 별도 혜택이 있을 수 있습니다.</p>
+                </div>
+                <div class="card">
+                    <h4>오늘의 추천 조건</h4>
+                    <p>평일 20시, 4인 기준, 친목 목적 시 추천 룸이 상이합니다. 상담을 통해 최적안을 제공드립니다.</p>
+                </div>
+            </aside>
         </div>
-    </div>
-</nav>
+    </main>
 
-<main class="container">
-    <section>
-        <h1>망원 셔츠룸 추천 블로그</h1>
-        <div class="blog-meta">
-            <span>작성일: 2025.03.14</span> · <span>조회: 12,847</span> · <span>댓글: 37</span>
-        </div>
+    <footer>
+        <p>© 2025 망원 셔츠룸 정보 가이드. 모든 콘텐츠는 정보 제공 목적으로 작성되었습니다.</p>
+    </footer>
 
-        <div class="blog-body">
-            <h2>진짜 망원 셔츠룸, 가격만 보고 속지 마라</h2>
-            <p>형들, 망원동에서 셔츠룸 찾고 있지? 네이버에 검색하면 수십 개 업소 뜨는데 <strong>80%는 가짜 후기</strong>라는 거 아냐. 내가 직접 발로 뛰고 돈 써가며 비교한 결과를 까발린다. 가격 싸다고 좋은 거 아니다. 분위기, 서비스, 마인드까지 다 따져야 제대로 즐길 수 있어.</p>
-
-            <blockquote>
-                <p>"열 번 검색하는 것보다 한 번 가보는 게 낫다, 근데 그 한 번을 잘 골라야 한다. 이 글이 그 기준이 될 거다."</p>
-            </blockquote>
-
-            <h3>1. 망원 셔츠룸, 왜 여기가 핫한가?</h3>
-            <p>홍대입구역, 합정역이랑 붙어 있어서 접근성 개꿀. 게다가 망원동 특유의 <strong>힙한 감성 + 브루탈리즘 인테리어</strong>가 셔츠룸 분위기랑 찰떡임. 일반 셔츠룸처럼 노래방+주류 개념이 아니라 진짜 프라이빗한 파티 공간이라는 느낌. 내가 가본 곳 중에 <strong>'더 스트립'</strong>이라는 곳이 있는데, 거긴 진짜 미친 분위기였음.</p>
-
-            <h3>2. 가격 비교 (돈 아깝지 않은 곳)</h3>
-            <ul>
-                <li><strong>더 스트립</strong> – 기본 2시간 20만원, 샴페인 포함 35만원. (강력 추천, 서비스 ㅆㅅㅌㅊ)</li>
-                <li><strong>라운지M</strong> – 1시간 15만원, 시스템이 좀 빡빡함. (비추, 분위기만 번지르르)</li>
-                <li><strong>셔츠룸A</strong> – 2시간 18만원, 가성비 끝판왕. (근데 시설이 좀 올드함)</li>
-                <li><strong>프라이빗P</
+    <script>
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.getElementById('mainNav').querySelector('ul').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
