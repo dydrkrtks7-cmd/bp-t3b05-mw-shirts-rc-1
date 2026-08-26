@@ -16,17 +16,87 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/field_note-001-mhxu1i.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://mangwon-shirt-choice.link-hub.org/posts/field_note-002-93nbkb.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260719-0273.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260719-0281.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0111.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0112.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0113.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0114.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0115.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/guide-002-mhxu1i.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/review-001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/field_note-001-mhxu1i.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/juice-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/normal-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/normal-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://mangwon-shirt-choice.link-hub.org/posts/normal-3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -62,11 +132,6 @@
   </url>
   <url>
     <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260719-0280.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260719-0281.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -121,31 +186,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0111.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0112.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0113.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0114.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0115.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0116.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -172,51 +212,6 @@
   </url>
   <url>
     <loc>https://mangwon-shirt-choice.link-hub.org/posts/gemini-coverage-20260722-0121.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/guide-002-mhxu1i.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/juice-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/juice-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/normal-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/normal-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/normal-3.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts/review-001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mangwon-shirt-choice.link-hub.org/posts-2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
